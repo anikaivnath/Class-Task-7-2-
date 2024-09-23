@@ -7,22 +7,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
-<body >
-    <div class="flex m-8">
+<body class="m-0 p-0">
+
+    <div class="flex justify-between m-6 ">
         <div>
             <h1 class="font-bold text-xl text-violet-950">Manage</h1>
         </div>
-        <div class="font-bold text-violet-950 w-full text-right">
+        <div class="font-bold text-violet-950">
             <p><i class="fa-solid fa-bars"></i></p>
         </div>
     </div>
-    <div class="">
-        <div class="flex justify-center ">
-            <img src="./Screenshot 2024-09-23 204811.png" alt="" class="w-40 h-40">
-            <img src="./Screenshot 2024-09-23 204900.png" alt="" class="w-40 h-40">
+
+    <div class="max-w-screen-lg">
+        <div class="flex justify-center space-x-4 flex-wrap">
+            <img src="./Screenshot 2024-09-23 204811.png" alt="" class="w-32 h-32 max-w-full">
+            <img src="./Screenshot 2024-09-23 204900.png" alt="" class="w-32 h-32 max-w-full">
         </div>
-        <div class="flex justify-center ">
-            <img src="./Screenshot 2024-09-23 205002.png" alt="" class="w-40 h-40">
+        <div class="flex justify-center mt-4">
+            <img src="./Screenshot 2024-09-23 205002.png" alt="" class="w-40 h-40 max-w-full">
+        </div>
+    </div>
+
+    <div class="max-w-lg mx-auto mt-6 px-4 text-justify">
+        <div class="font-bold text-3xl text-violet-950 text-center">
+            <p>Bring everyone</p>
+            <p class="m-auto w-full">together to build a better product</p>
+        </div>
+        <div class="mt-4 text-center text-neutral-950">
+            <p class=" m-auto text-xl text-slate-600 text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem eligendi blanditiis, ut et nemo consectetur cupiditate labore laudantium!</p>
+        </div>
+        <div class="flex justify-center mt-4">
+            <button class="text-white p-3 rounded-xl px-7 bg-orange-600 ">Get started</button>
         </div>
     </div>
 </body>
